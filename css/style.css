@@ -255,6 +255,11 @@ h1 {
     padding-top: 25px;
     padding-left: 25px;
 }
+.hebergement-article p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
 
 .grid-hebergement {
     display: grid;
@@ -352,6 +357,7 @@ h1 {
     gap: 30px;
 }
 
+
 .etoiles {
     display: flex;
     justify-content: space-between;
@@ -403,4 +409,121 @@ h1 {
     font-size: 16px;
     font-weight: 700;
     padding: 20px 19px 20px 19px;
+}
+
+/* MEDIA QUERRIES */
+
+/* Media querrie pour tablette */
+
+@media screen and (max-width:1024px) {
+    
+h1 {
+    margin-bottom: 5px;
+}   
+
+/* Filtres */
+
+.filtre-h3 {
+    display: block;
+    gap: 10px;
+}
+
+.filtre-p {
+    margin-bottom: 25px;
+}
+
+.filtre {
+    display: flex;
+}
+
+.filtre button {
+    margin: 0 25px 0 0;
+    font-size: 16px;
+}
+
+/* Hebergements */
+
+#hebergements {
+    display: block;
+}
+
+.hebergement-hotel img {
+    width: 100%;
+    height: 124px;
+}
+.hebergement-article h3{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+.hebergement-article p {
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.fa-star{
+    font-size: 12px;
+    
+}
+
+
+.hebergement-article {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    
+}
+
+/* Aside */
+
+.aside-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 30px;
+
+}
+.aside-grid img{
+    width: 140%;
+}
+
+
+.hebergement-populaire h3 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.hebergement-populaire p {
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+}
+
+/* Activités */
+.activites-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.activites-grid h3 {
+    font-size: 13px;
+    margin: 15px 0 0 10px;
+    padding: 0 0 10px 0;
+}
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    
 }
