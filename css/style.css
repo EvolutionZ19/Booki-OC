@@ -89,3 +89,84 @@ footer h2 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+/* MAIN */
+
+/* Première section */
+
+main{
+    padding: 30px;
+}
+.selection {
+    margin: auto;
+    max-width: 1440px;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.selection p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+/* Formulaire */
+
+.recherche {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 35px;
+}
+
+.recherche input, .button-bg-gris {
+    border: none;
+    text-align: center;
+    padding: 15px;
+    height: 15px;
+}
+
+.recherche button {
+    padding: 12px;
+}
+.recherche-loupe{
+    display: none;
+}
+
+.recherche i {
+    font-size: 16px!important;
+    padding: 15px;
+}
+
+.recherche input {
+    border: 1px solid var(--color-light-grey);
+}
+
+.recherche input::placeholder {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.bouton-gris {
+    background-color: var(--color-light-grey);
+    border: 1px solid var(--color-light-grey);
+    border-radius: 15px 0px 0px 15px;
+}
+.bouton-bleu {
+    background-color: var(--color-blue);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid var(--color-blue);
+    border-radius: 0px 15px 15px 0px;
+}
+.recherche i {
+    background-color: var(--color-light-grey);
+    font-size: 10px;
+}
+
+.recherche i, .recherche form {
+    border: 1px solid var(--color-light-grey);
+}
