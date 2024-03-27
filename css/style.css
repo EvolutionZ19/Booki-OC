@@ -415,7 +415,7 @@ h1 {
 
 /* Media querrie pour tablette */
 
-@media screen and (max-width:1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
 h1 {
     margin-bottom: 5px;
@@ -485,7 +485,7 @@ h1 {
 
 }
 .aside-grid img{
-    width: 140%;
+    width: 100%;
 }
 
 
@@ -527,3 +527,159 @@ footer {
     padding: 30px;
     
 }
+
+/* Media querrie pour la version smartphone */
+
+@media only screen and (max-width: 767px) {
+
+    /* Header */
+    header nav a {
+        width: 100%;
+        display: block;
+    }
+    
+    header {
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    header nav {
+        padding: 0;
+    }
+    
+    nav ul {
+        padding: 15px 0 0 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    
+    nav li:hover a{
+        color: var(--color-blue);
+        padding: 0 0 15px 0;
+        transition: all 0.2s ease;
+        border-bottom: 2px solid var(--color-blue);
+        border-top: none;
+    }
+
+    /* Main */
+    
+    .selection{
+        margin-top: 20px;
+    }
+
+    /* Formulaire */
+
+    .recherche{
+        justify-content: center;
+    }
+
+    .recherche button{
+        margin: 0;
+    }
+
+    .bouton-bleu  .fa-magnifying-glass {
+        background-color: var(--color-blue);
+        border: none;
+        padding: 0;
+        
+    }
+    
+    
+    .recherche-texte {
+        display: none;
+    }
+    
+    .recherche-loupe {
+        display: inline;
+    }
+    
+    .bouton-bleu{
+        margin-left: -5px;
+        border-radius: 15px;
+        box-shadow: 1px 5px 2px var(--color-grey);
+        
+    }
+    
+    /* Filtres */
+
+    .filtre-h3 {
+        display: block;
+    }
+
+    .filtre-p {
+        margin-bottom: 25px;
+    }
+    .filtre {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        gap: 20px;
+    }
+    
+    .filtre button {
+        font-size: 14px;
+        font-weight: 700;
+        width: 160px;
+        justify-content: left;
+        padding-left: 20px;
+    }
+    
+    /* Herbergements */
+
+    #hebergements {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hebergement-article {
+        border-radius: 0;
+        background-color: #FFF;
+    }
+    
+    .grid-hebergement {
+        display: block;
+        height: auto;
+        margin: 20px 20px;
+    }
+    
+    .hebergement-hotel {
+        margin-bottom: 25px;
+    }
+    
+    .fa-solid .fa-star {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Activités */
+
+    .activites-grid {
+        display: block;
+        margin-bottom: 25px;
+    }
+    
+    .activites-grid article {
+        margin-bottom: 25px;
+    }
+
+    /* Footer */
+
+    footer {
+        display: block;
+        padding: 70px;
+    }
+    
+    footer article {
+        margin-bottom: 50px;
+    }
+    
+    footer li {
+        margin-bottom: 16px;
+    }
+
+}
+ 
+
