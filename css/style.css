@@ -55,9 +55,9 @@ nav ul {
 
 nav li:hover a{
     color: var(--color-blue);
-    padding: 15px 0 0 0;
     transition: all 0.2s ease;
     border-top: 2px solid var(--color-blue);
+    padding-top: 36px;
 }
 
 /* FOOTER */
@@ -170,38 +170,50 @@ h1 {
 .recherche i, .recherche form {
     border: 1px solid var(--color-light-grey);
 }
-
+.fa-info {
+    border: 2px solid var(--color-light-grey); 
+    border-radius: 50%;      
+    padding: 10px;           
+    display: inline-block;   
+  }
+  
 /* Filtres */
 
 .filtre-h3 {
     display: flex;
     gap: 10px;
+    
 }
 
 .filtre {
     display: flex;
+    
 }
 
 .filtre-p {
     align-self: center;
+    
 }
 
 .filtre > h3 {
     font-size: 18px;
     font-weight: 700;
+    
+    
 }
 
 .filtre button {
     display: flex;
-    gap: 10px;
     border: 2px solid var(--color-light-grey);
     border-radius: 25px;
     background-color: #FFF;
     height: 40px;
     width: fit-content;
     align-self: center;
-    padding-top: 10px;
-    margin-left: 40px;
+    padding: 18px 35px 35px 18px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .filtre button:hover {
@@ -210,10 +222,6 @@ h1 {
     border: 2px solid var(--color-grey);
 }
 
-.filtre button {
-    font-size: 17px;
-    font-weight: 700;
-}
 
 .filtre button i {
     color: var(--color-blue);
@@ -247,6 +255,7 @@ h1 {
 
 .hebergement-article {
     border-radius: 15px;
+    padding: 25px;
 }
 .hebergement-article h2 {
     font-size: 22px;
@@ -258,7 +267,9 @@ h1 {
 .hebergement-article p {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    
 }
 
 .grid-hebergement {
@@ -287,14 +298,19 @@ h1 {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-
+.hebergement-hotel h3, p{
+    padding: 5px;
+}
+.hebergement-hotel i{
+    margin-left: 2px;
+    
+}
 .plus {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    padding-left: 25px;
-} 
+    padding-left: 20px;
+}
+
 
 /* Aside */
 
@@ -362,6 +378,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-left: -10px;
+}
+.etoiles p{
+    margin-top: 10px;
 }
 
 /* Activités */
@@ -437,8 +457,7 @@ h1 {
 }
 
 .filtre button {
-    margin: 0 25px 0 0;
-    font-size: 16px;
+    padding : 14px 28px 28px 18px;
 }
 
 /* Hebergements */
@@ -514,7 +533,7 @@ h1 {
 }
 
 .activites-grid h3 {
-    font-size: 13px;
+    font-size: 18px;
     margin: 15px 0 0 10px;
     padding: 0 0 10px 0;
 }
@@ -652,6 +671,7 @@ footer {
     .fa-solid .fa-star {
         margin: 0;
         padding: 0;
+        
     }
 
     /* Activités */
