@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** Général ***********/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
 
 * {
@@ -277,7 +277,8 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     height: auto;
-    margin: 20px 20px;
+    margin-bottom: 20px;
+    
 }
 
 .hebergement-hotel {
@@ -308,7 +309,8 @@ h1 {
 .plus {
     font-size: 16px;
     font-weight: 700;
-    padding-left: 20px;
+    
+    
 }
 
 
@@ -521,9 +523,10 @@ h1 {
     font-weight: 400;
     margin-bottom: 20px;
 }
-}
+
 
 /* Activités */
+
 .activites-img {
     width: 100%;
     height: 200px;
@@ -537,6 +540,7 @@ h1 {
     margin: 15px 0 0 10px;
     padding: 0 0 10px 0;
 }
+
 /* Footer */
 
 footer {
@@ -545,6 +549,7 @@ footer {
     gap: 30px;
     padding: 30px;
     
+}
 }
 
 /* Media querrie pour la version smartphone */
@@ -584,6 +589,7 @@ footer {
     }
 
     /* Main */
+    
     
     .selection{
         margin-top: 20px;
@@ -651,6 +657,7 @@ footer {
     #hebergements {
         display: flex;
         flex-direction: column-reverse;
+        
     }
 
     .hebergement-article {
