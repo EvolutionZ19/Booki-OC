@@ -100,6 +100,7 @@ main{
 .selection {
     margin: auto;
     max-width: 1440px;
+    
 }
 h1 {
     font-size: 22px;
@@ -109,7 +110,7 @@ h1 {
 .selection p {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 35px;
+    
 }
 /* Formulaire */
 
@@ -118,6 +119,7 @@ h1 {
     align-items: center;
     gap: 0;
     margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .recherche input, .button-bg-gris {
@@ -231,6 +233,9 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     margin-top: 40px;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 35px;
 }
 .info .fa-info {
     width: 14px;
@@ -628,6 +633,10 @@ footer {
     .recherche-loupe {
         display: inline;
     }
+    .input-recherche {
+        width: 100%;
+        
+    }
     
     .bouton-bleu{
         margin-left: -5px;
@@ -695,6 +704,13 @@ footer {
     }
     .plus{
         padding: 20px;
+    }
+
+    .aside-grid{
+        gap: 0px;
+    }
+    .hebergement-aside {
+        border-radius: 0;
     }
 
     /* Activités */
