@@ -205,12 +205,12 @@ h1 {
 }
 
 .filtre button {
-    display: flex;
+  display: flex;
     border: 2px solid var(--color-light-grey);
     border-radius: 25px;
     background-color: #FFF;
     height: 40px;
-    width: fit-content;
+    width: auto; 
     align-self: center;
     padding: 18px 35px 35px 18px;
     margin-left: 10px;
@@ -663,11 +663,11 @@ footer {
     }
     
     .filtre button {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 700;
-        width: 160px;
+        padding: 10px 20px 20px 10px;
         justify-content: center;
-        padding-left: 20px;
+        width: 100%;
     }
     .filtre .fa-solid {
         margin-right: 2px;
